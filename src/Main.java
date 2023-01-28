@@ -20,7 +20,7 @@ public class Main {
             System.exit(0);
         }
 
-        new DictionaryChecker(words).verifyWords();
-
+        //new FarlexDictionaryChecker(words).verifyWords();
+        new CollinsDictionaryChecker(words).verifyWords();
     }
 }
